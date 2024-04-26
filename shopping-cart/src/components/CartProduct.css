@@ -1,0 +1,47 @@
+.order-table td:first-of-type {
+    width: 25%;
+}
+
+.order-table {
+    position: relative;
+    overflow: hidden;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #ddd;
+}
+
+.order-table td:last-of-type {
+    vertical-align: top;
+    padding-left: 25px;
+}
+
+.thin {
+    font-weight: 400;
+}
+
+.modal-price {
+    color: #4488dd;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.remove-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 8px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.658);
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+}
