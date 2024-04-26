@@ -9,3 +9,5 @@ NOTE You should create a new file named as ".env" and create a variable named "S
 Inside the shopping-cart folder, go to data folder and open products.js. It contains the list of items with their own unique ids. In your stripe account, you will have to add the products by adding the name and price manually which will generate id for each product. Now change the ids according to your own generated ids.
 
 Everything is set. You can now use the command "npm run start" in two seperate terminals , one for backend and other for frontend and the website will work.
+
+You can use the Card: 4242424242424242 for testing purposes on stripe and any future expiry date and cvv. 
